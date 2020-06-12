@@ -38,9 +38,7 @@ function getCities() {
     } )
 }
 
-document
-    .querySelector("select[name=uf]")
-    .addEventListener("change", getCities)
+document.querySelector("select[name=uf]").addEventListener("change", getCities)
 
 
 const itemsToCollect =  document.querySelectorAll(".items-grid li")
